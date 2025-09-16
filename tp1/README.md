@@ -1,4 +1,7 @@
-xdcfgvbhnjkml:wq
 
+Perfil:
+[Foto de perfil](./profile%20um.png)
+Pedro Besteiro Silva
+pg60422
 
-A resuloção do 1ºTPC encontra-se em ./task.txt
+[Resolução da tarefa](./task.txt)
