@@ -4,8 +4,14 @@ Perfil:
 ![](./profile%20um.png)
 
 Pedro Besteiro Silva
-
+Mestrado em Engenharia Física
 pg60422
 
 
+^1\*(0|1)(0+1?)\*$
+Esta expressão regular permite 0 ou mais caracteres '1', no início da string a partir da expressão 1\*, uma vez que não existe a possibilidade de criar a substring "011".A expressão "(0+1?)" verifica-se a repetição de 1 ou mais '0' seguidos de 0 ou 1 '1', assim não existe a possíbilidade de ter um número com "11" após um zero. (0|1) existe como forma de não aceitar strings vazias.
+
+
 [Resolução da tarefa](./task.txt)
+
+
