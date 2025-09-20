@@ -11,9 +11,9 @@ pg60422
 
 # Resolução do TPC
 
-^1\*(0+1?)\*$
+^1\*(0+1?)+$|^1+(0+1?)\*$
 
-Esta expressão regular permite 0 ou mais caracteres '1', no início da string a partir da expressão 1\*, uma vez que não existe a possibilidade de criar a substring "011".A expressão "(0+1?)" verifica-se a repetição de 1 ou mais '0' seguidos de 0 ou 1 '1', assim não existe a possíbilidade de ter um número com "11" após um zero.
+Esta expressão regular permite 0 ou mais caracteres '1', no início da string a partir da expressão 1\*, uma vez que não existe a possibilidade de criar a substring "011".A expressão "(0+1?)" verifica a repetição de 1 ou mais '0' seguidos de 0 ou 1 '1', assim não existe a possíbilidade de ter um número com "11" após um zero.
 
 
 [Resolução da TPC em txt](./task.txt)
