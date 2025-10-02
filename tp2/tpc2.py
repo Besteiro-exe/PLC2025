@@ -35,7 +35,6 @@ for linha in sys.stdin:
     if counter2 == 1 and counter==1:
         print("</ol>")
         counter-=1
-        counter-=1
 
     print(linha, end="")
 
