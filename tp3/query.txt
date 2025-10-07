@@ -1,0 +1,6 @@
+SELECT ?a ?b ?c WHERE 
+{
+  ?a rdf:type :pessoa .
+  ?a :temIdade ?b .
+  ?a :eIrmaoDe ?c .
+}
