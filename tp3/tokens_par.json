@@ -1,0 +1,63 @@
+[
+    {
+        "id": "CA",
+        "expreg": "\\{"
+    },
+    {
+        "id": "CF",
+        "expreg": "\\}"
+    },
+    {
+        "id": "SELECT",
+        "expreg": "SELECT|select"
+    },
+    {
+        "id": "WHERE",
+        "expreg": "WHERE|where"
+    },
+    {
+        "id": "LIMIT",
+        "expreg": "LIMIT|limit"
+    },
+    {
+        "id": "variavel",
+        "expreg": "\\?\\w+"
+    },
+    {
+        "id": "idioma",
+        "expreg": "@\\w+"
+    },
+    {
+        "id": "String",
+        "expreg": "\"[\\w ]+\""
+    },
+    {
+        "id": "prefix_string",
+        "expreg": "\\w*:\\w+"
+    },
+    {
+        "id": "PONTO",
+        "expreg": "\\."
+    },
+    {
+        "id": "rdf_type",
+        "expreg": "a"
+    },
+    {
+        "id": "INT",
+        "expreg": "\\d+"
+    },
+    {
+        "id": "SKIP",
+        "expreg": "[ \\t]|(?:^#.*?$)"
+    },
+    {
+        "id": "NEWLINE",
+        "expreg": "\\n"
+    },
+    {
+        "id": "ERRO",
+        "expreg": "."
+    }
+    
+]
