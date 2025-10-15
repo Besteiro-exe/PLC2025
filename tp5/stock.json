@@ -1,0 +1,28 @@
+{
+    "stock": [
+        {
+            "cod": "A23",
+            "nome": "\u00e1gua 0.5L",
+            "quant": 7,
+            "preco": 0.7
+        },
+        {
+            "cod": "B34",
+            "nome": "maca",
+            "quant": 2,
+            "preco": 1.2
+        },
+        {
+            "cod": "A22",
+            "nome": "qwerty",
+            "quant": 9,
+            "preco": 0.5
+        },
+        {
+            "cod": "A76",
+            "nome": "sumo",
+            "quant": 1,
+            "preco": 1.6
+        }
+    ]
+}
