@@ -13,7 +13,9 @@ pg60422
 
 
 [Programa a correr](./programa.py)
+
 [analisador léxico](./analex.py)
+
 [enalisador sintático](./anasin.py)
 
 1. Este código é um analisador sintático recursivo descendente que verifica se uma expressão matemática está escrita corretamente de acordo com uma gramática pré-definida. è usado um analisador léxico (lexer) para ler os tokens da expressão (como números, operadores e parênteses).
